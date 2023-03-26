@@ -1,0 +1,21 @@
+.slider {
+  height: 50px;
+  width: 520px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.slider::-webkit-slider-runnable-track {
+  border-radius: 20px;
+}
+
+.slider-red::-webkit-slider-runnable-track {
+  background-color: red;
+}
+.slider-green::-webkit-slider-runnable-track {
+  background-color: green;
+}
+.slider-blue::-webkit-slider-runnable-track {
+  background-color: blue;
+}
